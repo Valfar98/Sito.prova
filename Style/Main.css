@@ -1,0 +1,71 @@
+/******* GENERAL *******/
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	text-decoration: underline;
+	text-decoration-color: #ff3333; 
+	margin: 5px;
+}
+
+body{
+	margin:0px;
+}
+
+h2{
+	margin: 0;
+	text-decoration:underline;
+	text-align: center;
+	color: white;
+	text-decoration-color: #ff3333;
+}
+
+/****** HEADER ******/
+
+#Header{
+background-color: #ff3333;
+padding: 15px 0px 0px 0px;
+}
+
+#NAV{
+	background-color: red;
+	text-align: center;
+	list-style-type: none;
+	padding: 10PX 10PX 10PX 0PX;
+	word-spacing: 3px
+}
+
+#NAV li{
+	text-decoration-color: white;
+	text-decoration: underline;
+	display: inline;
+	padding: 10px 10px 10px 20px;
+}
+#NAV li a{
+	text-decoration: underline;
+	text-decoration-color: white;
+	color: white;
+}
+#NAV li:HOVER{
+      background-color: #ff3333
+}
+
+#NAV li a:HOVER{
+	color: white;
+}
+
+/****** CONTENT ******/
+
+#content{
+	width: 600PX;
+	margin-top: 50px
+	margin-bottom:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content h4{
+	border-bottom: 3px solid #ff3333;
+
+}
